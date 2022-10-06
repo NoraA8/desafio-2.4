@@ -6,10 +6,6 @@ $primary: palevioletred;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-// .text-white {
-//     @extend .text-white;
-//     color: whitesmoke;
-// }
 .card {
     @extend .card;
     background: rgb(13, 13, 13);
