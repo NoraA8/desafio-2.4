@@ -2,11 +2,15 @@
 
 $font-family-base: 'Kaushan Script', cursive;
 $pink: palevioletred;
-$dark: rgb(13, 13, 13);
+$primary: palevioletred;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-.text-white {
-    @extend .text-white;
-    color: whitesmoke;
+// .text-white {
+//     @extend .text-white;
+//     color: whitesmoke;
+// }
+.card {
+    @extend .card;
+    background: rgb(13, 13, 13);
 }
