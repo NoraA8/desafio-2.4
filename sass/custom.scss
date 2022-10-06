@@ -1,20 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 $font-family-base: 'Kaushan Script', cursive;
-$primary: palevioletred;
+$pink: palevioletred;
 $dark: rgb(13, 13, 13);
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-.text-pink {
-    color: palevioletred;
-}
-.bg-pink {
-    background: palevioletred;
-}
-.pink {
-    color: palevioletred;
-}
 .text-white {
     @extend .text-white;
     color: whitesmoke;
